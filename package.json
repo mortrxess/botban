@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "canvas": "^3.2.0",
+    "colors.js": "^1.2.4",
+    "discord-selfbot-v13": "^0.0.1-security",
+    "discord.js": "^14.22.1",
+    "discord.js-selfbot-v13": "^3.7.0",
+    "node-console-colors": "^2.0.5",
+    "quick.db": "^9.1.7"
+  }
+}
