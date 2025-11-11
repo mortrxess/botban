@@ -14,8 +14,8 @@ const db = new QuickDB({});
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName('banunfo')
-    .setDescription('>> Débannir un utilisateur via son ID')
+    .setName('baninfo')
+    .setDescription('>> Information sur un bannissement.')
     .addStringOption(option =>
       option.setName('id')
         .setDescription('ID de l’utilisateur à débannir')
@@ -74,3 +74,4 @@ module.exports = {
     return interaction.reply({ flags: MessageFlags.IsComponentsV2, components: [container] });
   }
 };
+
