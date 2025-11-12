@@ -21,7 +21,7 @@ module.exports = {
   async execute(interaction, client) {
     const { autorisation } = require('../utils/autorisation');
 
-    if (!autorisation(interaction.member, 'unban')) {
+    if (!autorisation(interaction.member, 'banlist')) {
       return interaction.reply({
         embeds: [new EmbedBuilder()
           .setDescription("> ❌ Tu n'as pas la permission d'utiliser cette commande.")
